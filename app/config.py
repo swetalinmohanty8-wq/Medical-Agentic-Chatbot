@@ -23,7 +23,7 @@ class Settings(BaseSettings):
     pinecone_index: str = 'medical-agent-demo'
     groq_chat_model: str = 'llama-3.3-70b-versatile'
     groq_vision_model: str = 'meta-llama/llama-4-scout-17b-16e-instruct'
-    embed_model: str = 'BAAI/bge-small-en-v1.5'
+    embed_model: str = 'sentence-transformers/clip-ViT-B-32'
     api_token: str = ''
     allowed_origins: str = 'http://localhost:8000,http://127.0.0.1:8000'
     model_config = SettingsConfigDict(env_file='.env', extra='ignore')
