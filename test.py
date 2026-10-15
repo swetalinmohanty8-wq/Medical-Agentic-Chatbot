@@ -1,0 +1,20 @@
+from app.agent import graph
+
+
+config = {"configurable": {"thread_id": "user_123"}}
+
+
+result = graph.invoke(
+    {
+        "question": "What causes headaches and how can they be treated?",
+        "history": [],
+        "image_description": "",
+        "kb": [],
+        "web": [],
+        "answer": "",
+        "route": ""
+    },
+    config=config
+)
+
+print("Final Result:", result)

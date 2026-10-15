@@ -21,8 +21,8 @@ class Settings(BaseSettings):
     tavily_api_key: str = ''
 
     pinecone_index: str = 'medical-agent-demo'
-    groq_chat_model: str = 'llama-3.3-70b-versatile'
-    groq_vision_model: str = 'meta-llama/llama-4-scout-17b-16e-instruct'
+    groq_chat_model: str = 'openai/gpt-oss-20b'
+    groq_vision_model: str = 'qwen/qwen3.8-27b'
     embed_model: str = 'sentence-transformers/clip-ViT-B-32'
     api_token: str = ''
     allowed_origins: str = 'http://localhost:8000,http://127.0.0.1:8000'
