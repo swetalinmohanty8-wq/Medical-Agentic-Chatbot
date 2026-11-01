@@ -3,7 +3,7 @@
 An educational medical assistant with retrieval from the bundled historical Gale Encyclopedia of Medicine (2002, Volume 1 A–B), optional Tavily fallback, image observations, speech input/output, and a vanilla JS web UI.
 
 ## Requirements
-Python 3.11 or 3.12; OpenAI, Pinecone, and Tavily API keys; internet connection. This is a tutorial reference implementation, **not** a clinically validated diagnostic system or HIPAA-compliant deployment.
+Python 3.11 or 3.12; Groq, Pinecone, and Tavily API keys; internet connection. This is a tutorial reference implementation, **not** a clinically validated diagnostic system or HIPAA-compliant deployment.
 
 ## Start
 ```bash
